@@ -1,0 +1,98 @@
+/* CSS ANIMATION */
+.text{
+    height: 100px;
+    width: 260px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 100px 0px 0px 150px;
+}
+.text{
+    animation-name: harshil;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+    animation-delay: 10s; */
+    animation-timing-function: ease;
+}
+.text2{
+    height: 100px;
+    width: 200px;
+    border: 1px solid red;
+    margin: 200px 0px 0px 100px;
+}
+.text2:hover{
+    animation-name: scale;
+    animation-duration: 10s;
+}
+@keyframes harshil{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    70%{
+        transform: scale(2);
+    }
+}
+
+.heading{
+    height: 200px;
+    width: 600px;
+    border: 2px solid blue;
+    position: relative;
+    margin-top: 100px;
+}
+.heading1{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    border: 1px solid red;
+}
+.dematic{
+    position: absolute;
+    margin: 0;
+}
+.heading1:hover{
+    animation-name: boxed;
+    animation-duration: 20s;
+}
+.heading1:hover .dematic{
+    animation-name: demat;
+    animation-duration: 10s;
+}
+@keyframes boxed{
+    10%{
+        transform: translateX(300px);
+        transition: 5s;
+        background-color: red;
+    }
+    50%{
+        transform: translateY(100px);
+        transition: 5s;
+        background-color: yellow;
+    }
+    100%{
+        transform: translate(10px,10px);
+        transition: 5s;
+        background-color: blue;
+    }
+}
+@keyframes demat{
+    25%{
+        transform: translateX(100px);
+        transition: 200s;
+    }
+    50%{
+        transform: translateY(50px);
+        transition: 10s;
+    }
+    75%{
+        transform: translate(0px, 0px);
+        transition: 10s;
+    }
+}
+
+/* CSS FILTER */

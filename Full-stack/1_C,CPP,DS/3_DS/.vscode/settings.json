@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "DS1.C": "cpp",
+        "DS2.C": "cpp",
+        "DS3.C": "cpp",
+        "DS5.C": "cpp",
+        "DS4.C": "cpp",
+        "DS0.C": "cpp",
+        "DS6.C": "cpp",
+        "DS7.C": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "DS8.C": "cpp",
+        "DS9.C": "cpp",
+        "DS10.C": "cpp",
+        "DS11.C": "cpp",
+        "DS13.C": "cpp",
+        "DS14.C": "cpp",
+        "DS15.C": "cpp",
+        "DS16.C": "cpp",
+        "DS17.C": "cpp",
+        "DS18.C": "cpp",
+        "DS19.C": "cpp",
+        "main.C": "cpp",
+        "DS20.C": "cpp",
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

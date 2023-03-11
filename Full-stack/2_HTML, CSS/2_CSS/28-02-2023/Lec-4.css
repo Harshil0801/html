@@ -1,0 +1,50 @@
+/* 
+    google font
+    ofline font
+    css display
+    css flex-properties
+    css flex-box
+    css order
+*/
+
+/* common css */
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+} */
+
+/* css google properties */
+
+/* .ofline-font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+} */
+
+/* css border properties */
+/* .d-none{
+    display: none;
+} */
+/* .demobox{
+    display: inline;
+}
+.demobox p{
+    display: inline;
+}
+.demobox div{
+    display: inline;
+}
+.demobox div{
+    display: inline;
+}
+.demobox a{
+    display: block;
+} */
+
+.demobox-111{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+}

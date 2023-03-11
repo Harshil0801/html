@@ -1,0 +1,112 @@
+/* POSITION */
+.fixed{
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    position: fixed;
+    top: 100px;
+    margin: auto;
+    z-index: -1;
+}
+
+.sticky{
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    position: sticky;
+    top: 200px;
+}
+
+
+/* Z INDEX */
+.z-index-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:absolute;
+    z-index: -5;
+}
+.z-index-2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    z-index: -4;
+}
+
+
+/* FLOAT PROPERTIES */
+.float-1 img{
+    float: right;
+}
+
+
+/* CSS CLEAR PROPERTIES */
+.clear1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: right;
+}
+.clear2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+}
+.clear3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    clear: both;
+}
+
+
+/* CSS OVERFLOW PROPERTIES */
+.box11{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    overflow: scroll;
+}
+.box22{
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+
+
+/* CURSOR PROPERTIES */
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.grap {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize{cursor:ne-resize;}
+.nesw-resize{cursor:nesw-resize;}
+.ns-resize{cursor:ns-resize;}
+.no-drop{cursor:no-drop;}
+.none{cursor:none;}
+.not-allowed{cursor:not-allowed;}
+.pointer{cursor:pointer;}
+.progress{cursor:progress;}
+.row-resize{cursor:row-resize;}
+.s-resize{cursor:s-resize;}
+.se-resize{cursor:se-resize;}
+.sw-resize{cursor:sw-resize;}
+.text{cursor:text;}
+.url{cursor:url(myBall.cur) , auto;}
+.w-resize{cursor:w-resize;}
+.wait{cursor:wait;}
+.zoom-in{cursor:zoom-in;}
+.zoom-out{cursor:zoom-out;}

@@ -1,0 +1,18 @@
+#include<stdio.h.
+int main()
+{
+	int r[4],sub[4],pr[4],grd[4];
+	for(int i=0;i<5;i++)
+	{
+	printf("Enter roll number : ");
+	scanf("%d",r);
+	 
+		for(int j=0;i<5;i++)
+		{
+		printf("Enter sub. = %d marks : ",j);
+		scanf("%d",sub[i]);
+		}
+	}
+
+
+}

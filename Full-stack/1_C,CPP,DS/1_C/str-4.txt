@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	char str[100],i;
+	int j;
+	printf("\n Enter string : ");
+	gets(str);
+	printf(" string : %s = ",str);
+	for(j=1;str[j]!='\0';j++);
+	for(j;j<=0;j--);
+	printf("%c",str[j]);
+}

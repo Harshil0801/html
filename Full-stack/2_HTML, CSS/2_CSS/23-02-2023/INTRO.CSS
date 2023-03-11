@@ -1,0 +1,85 @@
+/* INDEX :
+    CSS Introduction
+    CSS Syntex
+    CSS apply method
+    CSS comment
+    Cascade and Inheritance 
+    !important rule    
+*/
+
+/* CSS apply External method */
+pre {
+    color: lightsteelblue;
+    border: 1px solid red;
+    background-color: lightcoral;
+}
+h4{
+    text-align: left;
+    text-decoration: line-through;
+}
+
+/* CSS comment */
+
+/*
+.element-1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+*/
+
+/*
+.element-1{
+    background-color: blueviolet;
+    height: 300px;
+    width: 500px;
+}
+*/
+
+/*
+.element-1{
+    height: 50px;
+}
+*/
+
+Inheritance 
+.heading-1{
+    color: red;
+    text-decoration: underline;
+    }
+
+.element-2 .heading-1{
+    color: green;
+}
+
+.text .element-2 .heading-1{
+    color: pink;
+}
+
+.text .heading-1{
+    color: brown;
+}
+
+.element-3 .heading-1{
+    color: yellow;
+}
+
+/* !important rule */
+
+.heading-2{
+    color: tomato;
+}
+
+/*
+.heading-2{
+    color: blueviolet;
+}
+*/
+
+.para-11{
+    color: pink !important;
+}
+
+.para-11{
+    color: azure !important;
+}

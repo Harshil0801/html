@@ -1,0 +1,286 @@
+.mainbox{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+}
+.mainbox div{
+    flex-basis: 50px;
+}
+.box-1{
+    flex-shrink: 1;
+    background-color:aqua;
+}
+.box-2{
+    background-color:aquamarine;
+}
+.box-3{
+    background-color: rgb(87, 87, 214);
+}
+.box-4{
+    background-color: blueviolet;
+}
+.box-5{
+    background-color: brown;
+}
+.box-6{
+    background-color:burlywood;
+}
+.box-7{
+    background-color: cadetblue;
+}
+.box-8{
+    background-color:rgb(66, 40, 91);
+}
+.box-9{
+    background-color: rgb(139, 83, 10);
+}
+.box-10{
+    background-color: rgb(255, 17, 17);
+}
+.box-11{
+    background-color: rgb(132, 0, 255);
+}
+.box-12{
+    background-color: rgb(8, 79, 79);
+}
+
+/* WRAP REVERCE */
+.mainbox-1{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-1 div{
+    height: 100px;
+    width: 100px;
+}
+.box-13{
+    background-color:rgb(66, 40, 91);
+}
+.box-14{
+    background-color: rgb(139, 83, 10);
+}
+.box-15{
+    background-color: rgb(255, 17, 17);
+}
+.box-16{
+    background-color: rgb(132, 0, 255);
+}
+.box-17{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-1{
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+/* JUSTYFY-CONTENT */
+.mainbox-2{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-2 div{
+    height: 100px;
+    width: 100px;
+}
+.box-18{
+    background-color:rgb(66, 40, 91);
+}
+.box-19{
+    background-color: rgb(139, 83, 10);
+}
+.box-20{
+    background-color: rgb(255, 17, 17);
+}
+.box-21{
+    background-color: rgb(132, 0, 255);
+}
+.box-22{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-2{
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+/* ALIGN */
+.mainbox-3{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-3 div{
+    height: 100px;
+    width: 100px;
+}
+.box-23{
+    background-color:rgb(66, 40, 91);
+}
+.box-24{
+    background-color: rgb(139, 83, 10);
+}
+.box-25{
+    background-color: rgb(255, 17, 17);
+}
+.box-26{
+    background-color: rgb(132, 0, 255);
+}
+.box-27{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-3{
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+/* ALIGN SELF */
+.mainbox-4{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-4 div{
+    height: 100px;
+    width: 100px;
+}
+.box-28{
+    background-color:rgb(66, 40, 91);
+}
+.box-29{
+    background-color: rgb(139, 83, 10);
+}
+.box-30{
+    background-color: rgb(255, 17, 17);
+}
+.box-31{
+    background-color: rgb(132, 0, 255);
+}
+.box-32{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-4{
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: self-start; */
+    /* align-self: self-end; */
+    /* align-self: start; */
+    /* align-self: end; */
+}
+
+/* ALIGN CONTENT */
+.mainbox-5{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-5 div{
+    height: 100px;
+    width: 100px;
+}
+.box-33{
+    background-color:rgb(66, 40, 91);
+}
+.box-34{
+    background-color: rgb(139, 83, 10);
+}
+.box-35{
+    background-color: rgb(255, 17, 17);
+}
+.box-36{
+    background-color: rgb(132, 0, 255);
+}
+.box-37{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-5{
+    /* align-content: center; */
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content: flex-start; */
+    align-content: flex-end;
+}
+
+/* FLEX DIRACTION */
+.mainbox-6{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-6 div{
+    height: 100px;
+    width: 100px;
+}
+.box-38{
+    background-color:rgb(66, 40, 91);
+}
+.box-39{
+    background-color: rgb(139, 83, 10);
+}
+.box-40{
+    background-color: rgb(255, 17, 17);
+}
+.box-41{
+    background-color: rgb(132, 0, 255);
+}
+.box-42{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-6{
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+}
+
+/*  FLEX FLOW */
+.mainbox-7{
+    display: flex;
+    height: 500px;
+    max-width: 1000px;
+    border: 5px solid rgb(241, 8, 8);
+}
+.mainbox-7 div{
+    height: 100px;
+    width: 100px;
+}
+.box-43{
+    background-color:rgb(66, 40, 91);
+}
+.box-44{
+    background-color: rgb(139, 83, 10);
+}
+.box-45{
+    background-color: rgb(255, 17, 17);
+}
+.box-46{
+    background-color: rgb(132, 0, 255);
+}
+.box-47{
+    background-color: rgb(8, 79, 79);
+}
+.mainbox-7{
+    /* flex-flow: row; */
+    /* flex-flow: row-reverse; */
+    /* flex-flow: column; */
+    /* flex-flow: column-reverse; */
+    /* flex-flow: nowrap; */
+    /* flex-flow: wrap; */
+    /* flex-flow: wrap-reverse; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: column wrap; */
+    flex-flow: row-reverse wrap-reverse;
+}

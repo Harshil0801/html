@@ -1,0 +1,82 @@
+/* CSS Resetting all Properties Value */
+/* p{
+    color: brown;
+}
+.para-11 p{
+    color: blue;
+}
+.para-22 p{
+    color: darkgrey;
+} */
+
+
+/* Simple Tag Selelctor */
+/* p{
+    color: lightpink;
+} */
+
+
+/* Class Selector */
+/* .div-3{
+    color: red;
+}
+.div-1{
+    color: green;
+    background-color: yellow;
+} */
+
+
+/* Unique id Selector */
+/* #box-1{
+    background-color: purple;
+}
+#box-2{
+    background-color: lightblue;
+} */
+
+
+/* Descendent Selector */
+/* .demo-1 p{
+    color: blue;
+    font-size: 20px;
+    background-color: yellow;
+} */
+
+
+/* Child Selector */
+/* .demo-2 > p{
+    color: red;
+    font-size: 20px;
+    background-color: yellow;
+} */
+
+
+/* Adjuacent Sibling */
+/* p + h1{
+    color: violet;
+    text-transform: capitalize;
+    background-color: yellow;
+} */
+
+
+/* General sibling */
+/* .demo-4 ~ p{
+    color: darkturquoise;
+    text-transform: capitalize;
+    text-decoration: underline;
+} */
+
+
+/* Link Selector */
+a:link{
+    color: red;
+}
+/* a:active{
+    color: green;
+} 
+a:hover{
+    background-color: black;
+}
+a:visited{
+    color: pink;
+} */
